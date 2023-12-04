@@ -5,6 +5,8 @@ export const Statistics = ({
   total,
   positivePercentage,
 }) => {
+
+  
   return (
     <div>
       <ul>
