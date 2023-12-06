@@ -6,7 +6,7 @@ import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
 
 
 
-export class App extends React.Component {
+export class App extends Component {
 
   state = {
     good: 0,
