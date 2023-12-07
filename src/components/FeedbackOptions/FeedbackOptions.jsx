@@ -1,5 +1,5 @@
 import css from "./FeedbackOptions.module.css";
-
+import PropTypes from 'prop-types';
 
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
@@ -18,5 +18,8 @@ const smiles = Object.keys(options);
 }
 
 
-
+FeedbackOptions.propTypes = {
+    options: PropTypes.object,
+    onLeaveFeedback: PropTypes.func
+}
 
